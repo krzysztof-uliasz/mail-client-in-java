@@ -12,7 +12,6 @@ The goal of this project was to create a simple Java program capable of sending 
 - [Implementation Details](#implementation-details)
 - [Future Work](#future-work)
 
-  
 ## Detailed Description
 This project was focused around learning the basics of java-based GUI and the use of external libraries. The GUI was created with the help of JPanel using different kinds of layouts (BorderLayout, FlowLayout, GridBagLayout). There are 4 window classes responsible for creating windows for: the main window of the application, capable of displaying sent emails, a window for adding a recipient and their email address, choosing an existing recipient from the previously added email addresses and a window for writing new emails. Sending mail is possible through the use of the Simple Java Mail library, with a hard-coded connection to Google's SMTP server using their App Password option for authentication (**_for privacy reasons, these fields have been left empty in the source code, but can be filled in after downloading the repo if necessary_**).
 
